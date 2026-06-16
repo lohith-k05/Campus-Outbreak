@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec.bak
+CampusOutbreak-Windows.zip
+
+# Environment / IDE local files
+.env
+.venv
+env/
+venv/
