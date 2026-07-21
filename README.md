@@ -11,9 +11,12 @@ Set in a quarantined university campus during a sudden viral outbreak, you must 
 - **Interact**: `E` or `Enter` (Terminals, NPCs, Books, Doors)
 - **Escape / Pause**: `ESC`
 
-## Chapters
-1. **Main Campus Grounds**: Exploration, orientation, and navigation.
-2. **AI Block**: High-tech terminal puzzles and combat waves.
-3. **Mechanical Block**: Machinery maze and survivor escort.
-4. **Library Dome**: Hidden passages and elite faculty enemies.
-5. **Research Department**: Secret underground laboratory, infected doctor boss, and antidote extraction.
+## Packaging and Build
+This project includes PyInstaller specification files for creating standalone binaries:
+- `CampusOutbreak.spec`: Standard directory bundle.
+- `CampusOutbreak_OneFile.spec`: Single executable package bundling all assets.
+
+To build:
+```bash
+pyinstaller CampusOutbreak_OneFile.spec
+```
