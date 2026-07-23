@@ -11,12 +11,11 @@ Set in a quarantined university campus during a sudden viral outbreak, you must 
 - **Interact**: `E` or `Enter` (Terminals, NPCs, Books, Doors)
 - **Escape / Pause**: `ESC`
 
-## Packaging and Build
-This project includes PyInstaller specification files for creating standalone binaries:
-- `CampusOutbreak.spec`: Standard directory bundle.
-- `CampusOutbreak_OneFile.spec`: Single executable package bundling all assets.
+## Audio & Video Configuration
+- **Audio Engine**: Powered by `pygame.mixer` with automatic fallbacks for headless/missing sound devices.
+- **Cinematics**: Embedded high-resolution MP4 cinematics played using `python-vlc` (falls back to Pygame frame rendering if VLC is unavailable).
 
-To build:
+## Building Executables
 ```bash
 pyinstaller CampusOutbreak_OneFile.spec
 ```
