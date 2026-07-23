@@ -11,11 +11,8 @@ Set in a quarantined university campus during a sudden viral outbreak, you must 
 - **Interact**: `E` or `Enter` (Terminals, NPCs, Books, Doors)
 - **Escape / Pause**: `ESC`
 
-## Audio & Video Configuration
-- **Audio Engine**: Powered by `pygame.mixer` with automatic fallbacks for headless/missing sound devices.
-- **Cinematics**: Embedded high-resolution MP4 cinematics played using `python-vlc` (falls back to Pygame frame rendering if VLC is unavailable).
-
-## Building Executables
-```bash
-pyinstaller CampusOutbreak_OneFile.spec
-```
+## Enemy Variants & Combat Mechanics
+- **Base Zombie**: Medium speed, standard melee damage.
+- **Student Zombie**: Fast, erratic swarming tactics in workshop areas.
+- **Faculty Zombie**: High resilience, heavy knockback, patrols academic archives.
+- **Infected Doctor**: Boss in Research Lab with rapid gap-closers and high damage output.
