@@ -11,8 +11,12 @@ Set in a quarantined university campus during a sudden viral outbreak, you must 
 - **Interact**: `E` or `Enter` (Terminals, NPCs, Books, Doors)
 - **Escape / Pause**: `ESC`
 
-## Enemy Variants & Combat Mechanics
-- **Base Zombie**: Medium speed, standard melee damage.
-- **Student Zombie**: Fast, erratic swarming tactics in workshop areas.
-- **Faculty Zombie**: High resilience, heavy knockback, patrols academic archives.
-- **Infected Doctor**: Boss in Research Lab with rapid gap-closers and high damage output.
+## QA & Playthrough Checklist
+- [x] Prologue intro video playback and skip handling
+- [x] Campus map traversal and building entrance triggers
+- [x] AI Block terminal puzzle state persistence
+- [x] AI Block 4-wave combat survival
+- [x] Mechanical Block student rescue escort follow AI
+- [x] Library secret shelf discovery and entrance trigger
+- [x] Research Lab boss combat and antidote collection
+- [x] Climax cutscenes and credits roll
